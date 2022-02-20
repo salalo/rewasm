@@ -19,7 +19,8 @@ defmodule REWASM.MixProject do
 
   defp deps do
     [
-      {:rustler, "~> 0.23.0"}
+      {:rustler, "~> 0.23.0"},
+      {:benchwarmer, "~> 0.0.2"}
     ]
   end
 end
